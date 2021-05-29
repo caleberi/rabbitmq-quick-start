@@ -1,0 +1,28 @@
+{
+  "name": "rabbitmq-quick-start",
+  "version": "1.0.0",
+  "description": "RabbitMQ is a message broker: it accepts and forwards messages. You can think about it as a post office: when you put the mail that you want posting in a post box, you can be sure that Mr. or Ms. Mailperson will eventually deliver the mail to your recipient. In this analogy, RabbitMQ is a post box, a post office and a postman.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleberi/rabbitmq-quick-start.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Broker",
+    "Pub/Sub"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caleberi/rabbitmq-quick-start/issues"
+  },
+  "homepage": "https://github.com/caleberi/rabbitmq-quick-start#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^10.0.0"
+  }
+}
